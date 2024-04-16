@@ -1,8 +1,14 @@
-import React from 'react'
-
+import './Navigator.css'
 const Navigator = () => {
   return (
-    <div>PetParadise</div>
+    <header>
+        <div>Anchi Nguyen</div>
+        <nav>
+            <div>Illustrations</div>
+            <div>Designs</div>
+            <div>About</div>
+        </nav>
+    </header>
   )
 }
 
