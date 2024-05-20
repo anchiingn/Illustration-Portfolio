@@ -1,0 +1,33 @@
+.homepage_container {
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.homepage-img_wrapper {
+    width: 27em;
+    height: 34em;
+    border-radius: 180px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+    img {
+        // width: 100%;
+        // height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+.short-intro {
+    width: 100%;
+    height: 10em;
+    background-color: aqua;
+    margin-top: 60px;
+}
