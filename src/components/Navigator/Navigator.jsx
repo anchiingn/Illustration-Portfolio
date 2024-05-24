@@ -12,6 +12,7 @@ const Navigator = () => {
         <div className='logo'>ANCHI NGUYEN</div>
 
         <div className='social-link_wrapper'>
+            <i className="fa-brands fa-instagram"></i>
             <i className="fa-brands fa-github"></i>
             <i className="fa-brands fa-linkedin"></i>
         </div>
