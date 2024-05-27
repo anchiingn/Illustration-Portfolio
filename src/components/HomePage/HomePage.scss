@@ -1,11 +1,14 @@
 .homepage_container {
     width: 100dvw;
     height: fit-content;
+    margin-top: 20px;
+}
+
+.about {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    padding: 50px;
     border-bottom: 2px solid black;
-    margin-top: 20px;
+    padding: 50px;
 
     .img_container {
         display: flex;
@@ -34,8 +37,6 @@
                 margin-top: 3px;
             }
         }
-        
-
         .intro-paragraph {
             display: flex;
             flex-direction: column;
@@ -48,7 +49,6 @@
                 line-height: 1.3;
             }
         }
-
         .button-link button{
             padding: 8px 25px;
             border-radius: 50px;
@@ -64,3 +64,33 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+// .spinText {
+//     width: 100%;
+//     height: 100%;
+//     position: relative;
+//     animation: spin 10s linear infinite;
+// }
+
+// .text {
+//     position: absolute;
+//     left: 50%;
+//     transform-origin: 0px 100px;
+// }
+
+// @keyframes spin {
+//     0% {
+//         transform: rotate(0deg);
+//     }
+//     100% {
+//         transform: rotate(360deg);
+//     }
+// }

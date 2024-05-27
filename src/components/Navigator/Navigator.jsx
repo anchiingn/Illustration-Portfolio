@@ -1,5 +1,15 @@
+import { useRef } from 'react'
 import './Navigator.scss'
 const Navigator = () => {
+  const homeRef = useRef();
+
+  const handleScroll = () => {
+    window.scrollTo({
+      top: homeRef.current.offsetTop,
+      behavior:'smooth'
+    })
+  }
+
   return (
     <header className='header_container'>
         <nav className='navlink_wrapper'>
