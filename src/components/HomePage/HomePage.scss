@@ -73,24 +73,35 @@
 
 
 
-// .spinText {
-//     width: 100%;
-//     height: 100%;
-//     position: relative;
-//     animation: spin 10s linear infinite;
-// }
+.spinText {
+    position: absolute;
+    animation: spin 10s linear infinite;
+    left: 45%;
+    top: 37em;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-// .text {
-//     position: absolute;
-//     left: 50%;
-//     transform-origin: 0px 100px;
-// }
 
-// @keyframes spin {
-//     0% {
-//         transform: rotate(0deg);
-//     }
-//     100% {
-//         transform: rotate(360deg);
-//     }
-// }
+.text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 75px;
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

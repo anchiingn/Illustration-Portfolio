@@ -2,12 +2,12 @@ import Skill from '../Skill/Skill'
 import './HomePage.scss'
 
 const HomePage = () => {
-  // const text = 'I am spining!! - I am spining!! -'
-  // const spingingText = text.split('').map((char, i) => {
-  //   return (
-  //     <div style={{transform:`rotate(${i * 10.5}deg)`}} className='text'>{char}</div>
-  //   )
-  // })
+  const text = 'Scroll down!! - Scroll down!! -'
+  const spingingText = text.split('').map((char, i) => {
+    return (
+        <div style={{transform:`rotate(${i * 11.2}deg)`}} className='text'>{char}</div>
+    )
+  })
 
 
 
@@ -38,11 +38,10 @@ const HomePage = () => {
           <div className='img_container'>
             <img src="src/assets/Screen Shot 2024-04-24 at 11.43.27 AM.png" alt="" />
           </div>
+      <div className='spinText'>{spingingText}</div>
       </section>
 
-      <section className='skills'>
-        <h1>Skills</h1>
-      </section>
+
 
       <Skill/>
       </div>
