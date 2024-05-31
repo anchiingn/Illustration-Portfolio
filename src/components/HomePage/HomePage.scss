@@ -9,6 +9,7 @@
     grid-template-columns: 2fr 2fr;
     border-bottom: 2px solid black;
     padding: 50px;
+    position: relative;
 
     .img_container {
         display: flex;
@@ -77,7 +78,7 @@
     position: absolute;
     animation: spin 10s linear infinite;
     left: 45%;
-    top: 37em;
+    bottom: 100px;
     width: 150px; 
     height: 150px;
     border-radius: 50%;

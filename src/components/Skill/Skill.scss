@@ -1,0 +1,41 @@
+.skills {
+    padding: 50px;
+    border-bottom: 2px solid black;
+    
+
+    h1 {
+        font-size: 40px;
+    }
+}
+
+.es_container {
+    display: grid;
+    grid-template-columns: 1.5fr 50px 2fr;
+
+    #black-line {
+        height: 100%;
+        width: 2px;
+        background-color: black;
+    }
+}
+
+.skills_wrapper {
+    column-gap: 1em;
+    
+    div {
+        display: flex;
+        border-radius: 20px;
+        margin-top: 30px;
+        width: 100%;
+        gap: 20px;
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        // span {
+        //     height: calc(100% - 100px);
+        //     width: calc(100% - 50px);
+        // }
+    }
+}
