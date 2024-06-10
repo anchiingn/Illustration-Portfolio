@@ -6,10 +6,10 @@ import './HomePage.scss'
 const HomePage = () => {
   const [loading, setLoading] = useState(true)
 
-  const text = 'Scroll down!! - Scroll down!! -'
+  const text = 'Welcome to my Portfolio!! -'
   const spingingText = text.split('').map((char, i) => {
     return (
-        <div style={{transform:`rotate(${i * 11.2}deg)`}} className='text'>{char}</div>
+        <div style={{transform:`rotate(${i * 13}deg)`}} className='text'>{char}</div>
     )
   })
 
@@ -36,7 +36,7 @@ const HomePage = () => {
                 </div>
 
                 <div className='intro-paragraph'>
-                  <p>I graduated from UofM with a graphic design major. I have done multiple graphic projects. During my time woking on design projects, I need to use html and css for editing. While learning basic coding for designers, I got interested in software development. </p>
+                  <p>I graduated from UofM with a graphic design major. I have done multiple graphic projects. During my time woking on design projects, I need to use HTML and CSS for editing. While learning basic coding for designers, I got interested in software development. </p>
                   <p>My favorite part about the development process is seeing my ideas come to life. I love coming up with ideas, designing the UI using my graphic designer skills, and implementing it using my coding skills. I have done this with my StickyCat project, which is a full-stack application with React frontend and Python backend. </p>
                   <p>I’m very excited to take on new challenges and use my coding and designing skills to make an impact. </p>
                 </div>
