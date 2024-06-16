@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Projects from '../Projects/Projects'
 import Skill from '../Skill/Skill'
 import './HomePage.scss'
+import { isFileServingAllowed } from 'vite'
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true)
